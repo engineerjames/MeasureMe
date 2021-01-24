@@ -45,9 +45,9 @@
     public class UserInfo
     {
         public SexType Sex { get; set; }
-        public uint Age { get; set; }
-        public uint HeightInInches { get; set; }
-        public uint WeightInPounds { get; set; }
+        public int Age { get; set; }
+        public int HeightInInches { get; set; }
+        public int WeightInPounds { get; set; }
         public ActivityFactor ActivityFactor { get; set; }
 
         public uint GetBasalMetabolicRate()
